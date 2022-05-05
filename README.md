@@ -38,6 +38,6 @@ subentries is then replaced by it's URI by the dictionary (URI_dict).
 Please make sure to extract zip files, before trying to open dendrograms created by this tool.
 
 ## Used resources
-- VocExcel: https://github.com/nfdi4cat/VocExcel
+- VocExcel: https://github.com/surroundaustralia/VocExcel
 - Ontospy: https://github.com/lambdamusic/Ontospy
   - Install Ontospy in full version: `pip install ontospy[FULL] -U`
