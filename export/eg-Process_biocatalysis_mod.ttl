@@ -1,0 +1,849 @@
+@prefix cs: <https://example.org/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cs:absorbance a skos:Concept ;
+    skos:altLabel "Bradford"@en,
+        "Nanodrop"@en ;
+    skos:broader cs:uv-vis_spectrophotometric ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Absorbance"@en .
+
+cs:adsorption a skos:Concept ;
+    skos:broader cs:mass_transfer_process ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "adsorption"@en .
+
+cs:antibiotic_resistance a skos:Concept ;
+    skos:broader cs:plasmid ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Antibiotic Resistance"@en .
+
+cs:antibody_purification a skos:Concept ;
+    skos:broader cs:affinity_chromatography ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Antibody Purification"@en .
+
+cs:antigen_purification a skos:Concept ;
+    skos:broader cs:affinity_chromatography ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Antigen Purification"@en .
+
+cs:bio_chemical_reaction a skos:Concept ;
+    skos:broader cs:reaction ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "bio chemical reaction"@en .
+
+cs:centrifuge_speed a skos:Concept ;
+    skos:broader cs:cell_harvesting_condition ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Centrifuge speed"@en .
+
+cs:chemical_reaction a skos:Concept ;
+    skos:broader cs:reaction ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "chemical reaction"@en .
+
+cs:column_type a skos:Concept ;
+    skos:broader cs:gel_filtration ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Column type"@en .
+
+cs:cooling a skos:Concept ;
+    skos:broader cs:heat_exchange ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cooling"@en .
+
+cs:crushing a skos:Concept ;
+    skos:broader cs:mechanic_process ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "crushing"@en .
+
+cs:crystallization a skos:Concept ;
+    skos:broader cs:separation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "crystallization"@en .
+
+cs:drying a skos:Concept ;
+    skos:broader cs:mass_transfer_process ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "drying"@en .
+
+cs:evaporation a skos:Concept ;
+    skos:broader cs:heat_transfer_process ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "evaporation"@en .
+
+cs:expression_host a skos:Concept ;
+    skos:altLabel "bacteria"@en,
+        "but can remain in alternate label list; OR: define bacteria/yeast as children)"@en,
+        "expression host"@en,
+        "microorganism"@en,
+        "organism"@en,
+        "yeast (bacteria strain is too specific"@en ;
+    skos:broader cs:transformation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Expression host"@en .
+
+cs:expression_strain_preparation a skos:Concept ;
+    skos:altLabel "Strain preparation"@en ;
+    skos:broader cs:transformation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Expression Strain preparation"@en .
+
+cs:extraction a skos:Concept ;
+    skos:broader cs:mass_transfer_process ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "extraction"@en .
+
+cs:filtration a skos:Concept ;
+    skos:broader cs:fluid_flow_process ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "filtration"@en .
+
+cs:fluid_transportation a skos:Concept ;
+    skos:broader cs:fluid_flow_process ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "fluid transportation"@en .
+
+cs:fluorescence a skos:Concept ;
+    skos:broader cs:uv-vis_spectrophotometric ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Fluorescence"@en .
+
+cs:fusion_tag_protein_purification a skos:Concept ;
+    skos:altLabel "His tag"@en,
+        "His trap"@en ;
+    skos:broader cs:affinity_chromatography ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Fusion tag protein purification"@en .
+
+cs:gas_absorption a skos:Concept ;
+    skos:broader cs:mass_transfer_process ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "gas absorption"@en .
+
+cs:gene a skos:Concept ;
+    skos:broader cs:plasmid ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "gene"@en .
+
+cs:heating a skos:Concept ;
+    skos:broader cs:heat_exchange ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "heating"@en .
+
+cs:homogeneous_catalyst_application a skos:Concept ;
+    skos:broader cs:homogeneous_catalysis ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "homogeneous catalyst Application"@en .
+
+cs:homogeneous_catalyst_preparation a skos:Concept ;
+    skos:broader cs:homogeneous_catalysis ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "homogeneous catalyst preparation"@en .
+
+cs:immunoprecipitation a skos:Concept ;
+    skos:broader cs:affinity_chromatography ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Immunoprecipitation"@en .
+
+cs:mixing a skos:Concept ;
+    skos:broader cs:combination ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mixing"@en .
+
+cs:offline a skos:Concept ;
+    skos:broader cs:assay_description ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "offline"@en .
+
+cs:online a skos:Concept ;
+    skos:broader cs:assay_description ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "online"@en .
+
+cs:pull-down_assay a skos:Concept ;
+    skos:broader cs:affinity_chromatography ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Pull-down Assay"@en .
+
+cs:pulverization a skos:Concept ;
+    skos:broader cs:mechanic_process ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "pulverization"@en .
+
+cs:refrigeration a skos:Concept ;
+    skos:broader cs:thermodynamic_process ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "refrigeration"@en .
+
+cs:sieving a skos:Concept ;
+    skos:broader cs:mechanic_process ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sieving"@en .
+
+cs:solid_fluidization a skos:Concept ;
+    skos:broader cs:fluid_flow_process ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "solid fluidization"@en .
+
+cs:solid_transportation a skos:Concept ;
+    skos:broader cs:mechanic_process ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "solid transportation"@en .
+
+cs:vector a skos:Concept ;
+    skos:altLabel "Backbone"@en ;
+    skos:broader cs:plasmid ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Vector"@en .
+
+cs:volume a skos:Concept ;
+    skos:broader cs:substance ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Volume"@en .
+
+cs:autoinduction a skos:Concept ;
+    skos:broader cs:cultivation_medium ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Autoinduction"@en ;
+    skos:related cs:non-autoinduction .
+
+cs:bio_catalyst_application a skos:Concept ;
+    skos:altLabel "Biocatalysis"@en ;
+    skos:broader cs:biologic_catalysis ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:activity_assay ;
+    skos:prefLabel "Bio Catalyst Application"@en .
+
+cs:buffer_composition a skos:Concept ;
+    skos:altLabel "Medium"@en,
+        "solvents"@en ;
+    skos:broader cs:assay_condition,
+        cs:condition ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Buffer composition"@en .
+
+cs:cell_harvesting a skos:Concept ;
+    skos:altLabel "Centrifugation"@en,
+        "filtration"@en,
+        "harvest"@en ;
+    skos:broader cs:bio_catalyst_preparation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:cell_harvesting_condition ;
+    skos:prefLabel "cell harvesting"@en .
+
+cs:chemical_transformation a skos:Concept ;
+    skos:altLabel "would change transformations into 'low level'-categories."@en ;
+    skos:broader cs:transformation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Chemical transformation"@en ;
+    skos:related cs:bacteria_strain .
+
+cs:colorimetric a skos:Concept ;
+    skos:broader cs:assay_description,
+        cs:protein_concentration ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Colorimetric"@en .
+
+cs:combination a skos:Concept ;
+    skos:broader cs:unit_operation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:mixing ;
+    skos:prefLabel "combination"@en .
+
+cs:direct a skos:Concept ;
+    skos:broader cs:assay_description ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Direct"@en ;
+    skos:related cs:indirect .
+
+cs:distillation a skos:Concept ;
+    skos:broader cs:mass_transfer_process,
+        cs:separation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "distillation"@en .
+
+cs:electroporation a skos:Concept ;
+    skos:broader cs:transformation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Electroporation"@en ;
+    skos:related cs:bacteria_strain .
+
+cs:enzyme a skos:Concept ;
+    skos:altLabel "Biocatalyst"@en,
+        "catalyst"@en ;
+    skos:broader cs:assay_condition,
+        cs:condition ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Enzyme"@en .
+
+cs:indirect a skos:Concept ;
+    skos:broader cs:assay_description ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Indirect"@en ;
+    skos:related cs:direct .
+
+cs:kinetics a skos:Concept ;
+    skos:broader cs:assay_description ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "kinetics"@en ;
+    skos:related cs:endpoint_measurement .
+
+cs:mechanical a skos:Concept ;
+    skos:altLabel "French press"@en,
+        "Sonication"@en,
+        "homogenizing"@en ;
+    skos:broader cs:cell_disruption ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mechanical"@en ;
+    skos:related cs:non-mechanical .
+
+cs:non-mechanical a skos:Concept ;
+    skos:altLabel "Lysis"@en ;
+    skos:broader cs:cell_disruption ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Non-mechanical"@en ;
+    skos:related cs:mechanical .
+
+cs:optical_density a skos:Concept ;
+    skos:altLabel "OD600"@en,
+        "biomass concentration"@en,
+        "cell concentration"@en,
+        "cell dry weight"@en ;
+    skos:broader cs:condition,
+        cs:induction_condition ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Optical density"@en .
+
+cs:product a skos:Concept ;
+    skos:broader cs:assay_condition,
+        cs:condition ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Product"@en .
+
+cs:reactant_determined a skos:Concept ;
+    skos:broader cs:substance ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "reactant determined"@en ;
+    skos:related cs:substrate .
+
+cs:reaction_type a skos:Concept ;
+    skos:broader cs:assay_condition,
+        cs:condition ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Reaction type"@en .
+
+cs:second_phase a skos:Concept ;
+    skos:altLabel "Liquid phase"@en,
+        "gaseous phase"@en,
+        "organic phase"@en ;
+    skos:broader cs:assay_condition,
+        cs:condition ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Second phase"@en .
+
+cs:stopping_procedure a skos:Concept ;
+    skos:altLabel "Quenching"@en ;
+    skos:broader cs:assay_condition,
+        cs:condition ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Stopping procedure"@en .
+
+cs:thermodynamic_process a skos:Concept ;
+    skos:broader cs:unit_operation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:refrigeration ;
+    skos:prefLabel "thermodynamic process"@en .
+
+cs:gel_filtration a skos:Concept ;
+    skos:altLabel "Desalting"@en,
+        "Size exclusion chromatography"@en ;
+    skos:broader cs:bio_catalyst_preparation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:column_type ;
+    skos:prefLabel "Gel Filtration"@en ;
+    skos:related cs:buffer .
+
+cs:heat_exchange a skos:Concept ;
+    skos:broader cs:heat_transfer_process ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:cooling,
+        cs:heating ;
+    skos:prefLabel "heat exchange"@en .
+
+cs:heat_transfer_process a skos:Concept ;
+    skos:broader cs:unit_operation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:evaporation,
+        cs:heat_exchange ;
+    skos:prefLabel "heat transfer process"@en .
+
+cs:homogeneous_catalysis a skos:Concept ;
+    skos:broader cs:process ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:homogeneous_catalyst_application,
+        cs:homogeneous_catalyst_preparation ;
+    skos:prefLabel "Homogeneous Catalysis"@en .
+
+cs:length_of_time a skos:Concept ;
+    skos:altLabel "Duration"@en,
+        "cultivation time"@en ;
+    skos:broader cs:cell_harvesting_condition,
+        cs:condition,
+        cs:induction_condition ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Length of time"@en,
+        "length of time"@en .
+
+cs:non-autoinduction a skos:Concept ;
+    skos:altLabel "Inducer"@en,
+        "Induction"@en ;
+    skos:broader cs:cultivation_medium ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Non-autoinduction"@en ;
+    skos:related cs:autoinduction,
+        cs:induction .
+
+cs:protein_concentration a skos:Concept ;
+    skos:altLabel "Enzyme concentration"@en ;
+    skos:broader cs:bio_catalyst_preparation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:colorimetric,
+        cs:uv-vis_spectrophotometric ;
+    skos:prefLabel "Protein Concentration"@en .
+
+cs:reaction a skos:Concept ;
+    skos:altLabel "unit operation reaction"@en ;
+    skos:broader cs:unit_operation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:bio_chemical_reaction,
+        cs:chemical_reaction ;
+    skos:prefLabel "Reaction"@en .
+
+cs:separation a skos:Concept ;
+    skos:broader cs:unit_operation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:crystallization,
+        cs:distillation ;
+    skos:prefLabel "separation"@en .
+
+cs:shaking_speed a skos:Concept ;
+    skos:broader cs:condition,
+        cs:cultivation_condition,
+        cs:induction_condition ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Shaking speed"@en .
+
+cs:substrate a skos:Concept ;
+    skos:altLabel "Reactant"@en ;
+    skos:broader cs:assay_condition,
+        cs:condition ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Substrate"@en ;
+    skos:related cs:reactant_determined .
+
+cs:time a skos:Concept ;
+    skos:broader cs:assay_condition,
+        cs:condition ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Time"@en ;
+    skos:related cs:endpoint_measurement .
+
+cs:activity_assay a skos:Concept ;
+    skos:altLabel "Enzyme kinetics (is written with s"@en,
+        "reaction"@en,
+        "singular and plural)"@en,
+        "synthesis"@en ;
+    skos:broader cs:bio_catalyst_application ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:assay_condition,
+        cs:assay_description ;
+    skos:prefLabel "Activity assay"@en ;
+    skos:related cs:buffer .
+
+cs:biologic_catalysis a skos:Concept ;
+    skos:broader cs:process ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:bio_catalyst_application,
+        cs:bio_catalyst_preparation,
+        cs:protein_purification ;
+    skos:prefLabel "Biologic Catalysis"@en .
+
+cs:buffer a skos:Concept ;
+    skos:broader cs:substance ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "buffer"@en ;
+    skos:related cs:activity_assay,
+        cs:gel_filtration,
+        cs:protein_purification .
+
+cs:cell_disruption a skos:Concept ;
+    skos:broader cs:bio_catalyst_preparation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:mechanical,
+        cs:non-mechanical ;
+    skos:prefLabel "cell disruption"@en ;
+    skos:related cs:bacteria_strain .
+
+cs:cell_harvesting_condition a skos:Concept ;
+    skos:broader cs:cell_harvesting ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:centrifuge_speed,
+        cs:length_of_time,
+        cs:temperature ;
+    skos:prefLabel "cell harvesting condition"@en .
+
+cs:cultivation a skos:Concept ;
+    skos:altLabel "Incubation"@en ;
+    skos:broader cs:bio_catalyst_preparation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:bacteria_strain,
+        cs:cultivation_condition,
+        cs:cultivation_medium ;
+    skos:prefLabel "Cultivation"@en .
+
+cs:cultivation_condition a skos:Concept ;
+    skos:broader cs:cultivation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:shaking_speed,
+        cs:temperature ;
+    skos:prefLabel "Cultivation condition"@en ;
+    skos:related cs:condition .
+
+cs:cultivation_medium a skos:Concept ;
+    skos:broader cs:cultivation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:autoinduction,
+        cs:non-autoinduction ;
+    skos:prefLabel "Cultivation medium"@en ;
+    skos:related cs:induction .
+
+cs:endpoint_measurement a skos:Concept ;
+    skos:broader cs:assay_description ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Endpoint measurement"@en ;
+    skos:related cs:assay_description,
+        cs:kinetics,
+        cs:time .
+
+cs:fluid_flow_process a skos:Concept ;
+    skos:broader cs:unit_operation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:filtration,
+        cs:fluid_transportation,
+        cs:solid_fluidization ;
+    skos:prefLabel "Fluid flow process"@en .
+
+cs:induction a skos:Concept ;
+    skos:altLabel "Expression"@en,
+        "Gene Expression"@en,
+        "Incubation"@en ;
+    skos:broader cs:bio_catalyst_preparation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:induction_condition ;
+    skos:prefLabel "Induction"@en ;
+    skos:related cs:cultivation_medium,
+        cs:non-autoinduction .
+
+cs:protein_purification a skos:Concept ;
+    skos:broader cs:biologic_catalysis ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:affinity_chromatography ;
+    skos:prefLabel "Protein Purification"@en ;
+    skos:related cs:buffer,
+        cs:plasmid .
+
+cs:substance a skos:Concept ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:buffer,
+        cs:reactant_determined,
+        cs:volume ;
+    skos:prefLabel "substance"@en ;
+    skos:topConceptOf cs: .
+
+cs:uv-vis_spectrophotometric a skos:Concept ;
+    skos:broader cs:assay_description,
+        cs:protein_concentration ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:absorbance,
+        cs:fluorescence ;
+    skos:prefLabel "UV-VIS spectrophotometric"@en .
+
+cs:bacteria_strain a skos:Concept ;
+    skos:broader cs:cultivation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bacteria strain"@en ;
+    skos:related cs:cell_disruption,
+        cs:chemical_transformation,
+        cs:electroporation,
+        cs:induction_condition .
+
+cs:mechanic_process a skos:Concept ;
+    skos:broader cs:unit_operation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:crushing,
+        cs:pulverization,
+        cs:sieving,
+        cs:solid_transportation ;
+    skos:prefLabel "mechanic process"@en .
+
+cs:plasmid a skos:Concept ;
+    skos:broader cs:transformation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:antibiotic_resistance,
+        cs:gene,
+        cs:vector ;
+    skos:prefLabel "Plasmid"@en ;
+    skos:related cs:protein_purification .
+
+cs:process a skos:Concept ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:biologic_catalysis,
+        cs:condition,
+        cs:homogeneous_catalysis,
+        cs:unit_operation ;
+    skos:prefLabel "process"@en ;
+    skos:topConceptOf cs: .
+
+cs:temperature a skos:Concept ;
+    skos:broader cs:assay_condition,
+        cs:cell_harvesting_condition,
+        cs:condition,
+        cs:cultivation_condition,
+        cs:induction_condition ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Temperature"@en .
+
+cs:affinity_chromatography a skos:Concept ;
+    skos:broader cs:protein_purification ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:antibody_purification,
+        cs:antigen_purification,
+        cs:fusion_tag_protein_purification,
+        cs:immunoprecipitation,
+        cs:pull-down_assay ;
+    skos:prefLabel "Affinity Chromatography"@en .
+
+cs:induction_condition a skos:Concept ;
+    skos:altLabel "should we add the cultivation volume?"@en ;
+    skos:broader cs:induction ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:length_of_time,
+        cs:optical_density,
+        cs:shaking_speed,
+        cs:temperature ;
+    skos:prefLabel "induction condition"@en ;
+    skos:related cs:bacteria_strain .
+
+cs:mass_transfer_process a skos:Concept ;
+    skos:broader cs:unit_operation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:adsorption,
+        cs:distillation,
+        cs:drying,
+        cs:extraction,
+        cs:gas_absorption ;
+    skos:prefLabel "mass transfer process"@en .
+
+cs:transformation a skos:Concept ;
+    skos:altLabel "biotransformation"@en ;
+    skos:broader cs:bio_catalyst_preparation ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:chemical_transformation,
+        cs:electroporation,
+        cs:expression_host,
+        cs:expression_strain_preparation,
+        cs:plasmid ;
+    skos:prefLabel "Transformation"@en .
+
+cs:bio_catalyst_preparation a skos:Concept ;
+    skos:broader cs:biologic_catalysis ;
+    skos:definition "The Catalyst Preparation is a process that is intended to synthesize a catalyst from several components."@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:cell_disruption,
+        cs:cell_harvesting,
+        cs:cultivation,
+        cs:gel_filtration,
+        cs:induction,
+        cs:protein_concentration,
+        cs:transformation ;
+    skos:prefLabel "Bio Catalyst Preparation"@en .
+
+cs:unit_operation a skos:Concept ;
+    skos:broader cs:process ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:combination,
+        cs:fluid_flow_process,
+        cs:heat_transfer_process,
+        cs:mass_transfer_process,
+        cs:mechanic_process,
+        cs:reaction,
+        cs:separation,
+        cs:thermodynamic_process ;
+    skos:prefLabel "unit operation"@en .
+
+cs:assay_condition a skos:Concept ;
+    skos:broader cs:activity_assay ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:buffer_composition,
+        cs:enzyme,
+        cs:product,
+        cs:reaction_type,
+        cs:second_phase,
+        cs:stopping_procedure,
+        cs:substrate,
+        cs:temperature,
+        cs:time ;
+    skos:prefLabel "Assay condition"@en .
+
+cs:assay_description a skos:Concept ;
+    skos:altLabel "Assay type"@en ;
+    skos:broader cs:activity_assay ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:colorimetric,
+        cs:direct,
+        cs:endpoint_measurement,
+        cs:indirect,
+        cs:kinetics,
+        cs:offline,
+        cs:online,
+        cs:uv-vis_spectrophotometric ;
+    skos:prefLabel "Assay description"@en ;
+    skos:related cs:endpoint_measurement .
+
+cs:condition a skos:Concept ;
+    skos:broader cs:process ;
+    skos:definition "not defined yet"@en ;
+    skos:inScheme cs: ;
+    skos:narrower cs:buffer_composition,
+        cs:enzyme,
+        cs:length_of_time,
+        cs:optical_density,
+        cs:product,
+        cs:reaction_type,
+        cs:second_phase,
+        cs:shaking_speed,
+        cs:stopping_procedure,
+        cs:substrate,
+        cs:temperature,
+        cs:time ;
+    skos:prefLabel "condition"@en ;
+    skos:related cs:cultivation_condition .
+
+cs: a skos:ConceptScheme ;
+    dcterms:created "2021-11-19"^^xsd:date ;
+    dcterms:creator <https://nfdi4cat.org/> ;
+    dcterms:modified "2022-05-05"^^xsd:date ;
+    dcterms:provenance "NFDI4Cat - TA1"@en ;
+    dcterms:publisher <https://nfdi4cat.org/> ;
+    owl:versionInfo "1" ;
+    skos:definition """A 'process' is defined as a temporal part of a 'physical' that is categorized in a primitive process subclass according to what type of process we want to represent.
+A 'process' is always a 'physical', since a 'void' does not have elements that evolves in time." [EMMO]"""@en ;
+    skos:hasTopConcept cs:process,
+        cs:substance ;
+    skos:prefLabel "vocabulary for processes"@en ;
+    dcat:contactPoint "TA1 subgroup homogeneous catalysis and biocatalysis" .
+
