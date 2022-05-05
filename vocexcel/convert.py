@@ -88,7 +88,7 @@ def extract_concepts_and_collections(
                                 home_vocab_uri=s[f"G{row}"].value,
                                 provenance=s[f"H{row}"].value,
                             )
-                        elif template_version == "0.4.0":
+                        elif template_version == "0.2.2": #This version was created by NFDI4Cat-TA1 based on template version 0.2.1
                             c = models.Concept(
                                 uri=s[f"A{row}"].value,
                                 pref_label=s[f"B{row}"].value,

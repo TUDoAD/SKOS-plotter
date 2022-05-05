@@ -1,7 +1,9 @@
 This repository contains the SKOS-plotter by Alexander S. Behr, TU Dortmund University, created in context of NFDI4Cat TA1.
+Development and execution was done using Spyder
 
-** Needed modules (list may not be complete!):**
-	- pip install ontospy[FULL] -U
+**Needed modules (list may not be complete!):**
+
+`pip install ontospy[FULL] -U`
 
 Please make sure to include at least one xlsx file in the import subdirectory. 
 All files placed here should be conform with the SKOS-template we're using in NFDI4Cat.
@@ -16,6 +18,11 @@ to a ttl-file, storing it in the ./export subdirectory.
 into ./export/dendro_<Excel-file-name> and ./export/docs_<Excel-file-name> respectively.
 Those plots are done using Ontospy module.
 
+The overall workflow with input and output of `SKOS-plotter.py` is visualized below.
+
+![Program Scheme](figures/Flow-SKOS-plotter.png?raw=true "In-and Output scheme of SKOS-plotter.py")
+
+
 ## URIgenerator.py
 First method URI_generation reads in the URI for the vocabulary (in cell B1) 
 and the preferred labels. To get a URI-valid name, the space characters are 
@@ -27,6 +34,10 @@ When an entry is found, that is not None and does not contain some of
 (https://, http:// or www.), the entry is split by commas and each of those 
 subentries is then replaced by it's URI by the dictionary (URI_dict).
 
-
 ## ./export/
 Please make sure to extract zip files, before trying to open dendrograms created by this tool.
+
+## Used resources
+- VocExcel: https://github.com/nfdi4cat/VocExcel
+- Ontospy: https://github.com/lambdamusic/Ontospy
+  - Install Ontospy in full version: `pip install ontospy[FULL] -U`
